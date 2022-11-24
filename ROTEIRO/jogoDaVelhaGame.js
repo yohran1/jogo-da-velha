@@ -12,18 +12,7 @@ let winStates = [
     [2,5,8],
     [0,4,8],
     [2,4,6]
-];
-//              Teste
-function reset(){
-    if(gameOver){
-    let board = ["", "", "","", "", "","", "", ""]
-    let playerTime = 0;
-    let gameOver = false;
-    }
-    return gameOver
-}
-//              Fim do teste
-
+]
 function move(position){
 
     if(gameOver){
